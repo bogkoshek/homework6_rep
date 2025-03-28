@@ -1,0 +1,62 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00476.hmm
+# target sequence database:        protein_scerev.faa
+# output directed to file:         scerev_polA_hmmsearch.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       DNA_pol_A  [M=381]
+Accession:   PF00476.25
+Description: DNA polymerase family A
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+    1.2e-18   65.7   0.0    2.2e-18   64.8   0.0    1.3  1  NP_014975.2  DNA-directed DNA polymerase gamma MIP1 [Saccharo
+
+
+Domain annotation for each sequence (and alignments):
+>> NP_014975.2  DNA-directed DNA polymerase gamma MIP1 [Saccharomyces cerevisiae S288C]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.8   0.0   3.7e-22   2.2e-18     137     352 ..     673     909 ..     651     928 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 64.8 bits;  conditional E-value: 3.7e-22
+                  CHHHHHHTBCGSTTCCEEEEEEETTHHHHHHHHHCT-HHHH....HHH.........HTTH-HHHHHHHHHCTS-GGGHHHHHHHHHHHHHHHHHTT- CS
+    DNA_pol_A 137 egreiRkafvaeeegvlllsaDYsqiELrilAhlsgdeeLi....eaf.........kegeDiHtatAsevfgvpleevtkeqRrkaKavnFgiiYGi 221
+                   g e+++   a++ g++++ aD    EL+i A+l gd+ +     +a+         +eg+D+Ht+tA+ +           +R++aK +n+g iYG+
+  NP_014975.2 673 IGSELKTQVKAPP-GYCFVGADVDSEELWI-ASLVGDSIFNvhggTAIgwmclegtkNEGTDLHTKTAQILGC---------SRNEAKIFNYGRIYGA 759
+                  5778889999999.789************9.9*****988744443337788888878899******987766.........5*************** PP
+
+                  -HHHHHHHHT.....SSHHHHHHHHHHHHHHSHHHH...............HHHHHHHHHCCCE.SCCEETTCSEEEECTTT-CCHCCCHHHHHHHHH CS
+    DNA_pol_A 222 safgLaeqlg.....isrkeAkeliekYferypgvk...............eyleetveeakek.gyvetllgRrrylpeinsknkalrsaaeraAiN 298
+                  +a+  ++ l+     ++ +e+k++ +k +e+ +g                 + l + +e+++e+    + +lg  ++   + +kn + +s+   + iN
+  NP_014975.2 760 GAKFASQLLKrfnpsLTDEETKKIANKLYENTKGKTkrsklfkkfwyggseSILFNKLESIAEQeTPKTPVLGCGITY-SLMKKNLRANSF-LPSRIN 855
+                  **999999965445579**********999999766688888888888888555555555555505555566666665.788888777666.7899** PP
+
+                  HHHHHHHHHHHHHHHHHHHHHHHHTT-SEEEEEEETTEEEEEEECCCHHHHHHH CS
+    DNA_pol_A 299 apiQGsaADiiklamikvekalkeeklkarlllqvHDELvfevpeeeleevael 352
+                  + iQ+s+ D ++l  +++e  +k+ +l+arl++ +HDE+ f v e+++ ++a  
+  NP_014975.2 856 WAIQSSGVDYLHLLCCSMEYIIKKYNLEARLCISIHDEIRFLVSEKDKYRAAMA 909
+                  ********************************************9998877644 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (381 nodes)
+Target sequences:                         6021  (2933360 residues searched)
+Passed MSV filter:                       329  (0.0546421); expected 120.4 (0.02)
+Passed bias filter:                      110  (0.0182694); expected 120.4 (0.02)
+Passed Vit filter:                         8  (0.00132868); expected 6.0 (0.001)
+Passed Fwd filter:                         1  (0.000166085); expected 0.1 (1e-05)
+Initial search space (Z):               6021  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.13u 0.02s 00:00:00.15 Elapsed: 00:00:00.09
+# Mc/sec: 12417.89
+//
+[ok]

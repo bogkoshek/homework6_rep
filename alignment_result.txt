@@ -1,0 +1,98 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+NP_014975.2      MTKLMVRSECMLRMVRRRPLRVQFCARW-------FSTKKNTAEAPRINPVGIQ------	47
+NP_418300.1      ----------MVQ-IPQNPLILVDGSSYLYRAYHAFPPLTNSAGEPTGAMYGVLNMLRSL	49
+                           *:: : :.** :   : :       *   .*:*  *     *:       
+
+NP_014975.2      --------------YLGESLQRQVFGSCGGKDEVEQSDKLMELSKKSLKDHGLWGKKTLI	93
+NP_418300.1      IMQYKPTHAAVVFDAKGKTFRDELFEHYKSHRPPMP-DDLR----------AQIEPLHAM	98
+                                 *:::: ::*    .:      *.*           .       :
+
+NP_014975.2      TDPISFPLPPLQGRSLDEHFQKIGRFNSE---PYKSF-CEDK--------------FTEM	135
+NP_418300.1      VKAMGLPLLAVSGVEADDVIGTLAREAEKAGRPVLISTGDKDMAQLVTPNITLINTMTNT	158
+                 .. :.:**  :.* . *: : .:.*  .:   *      :..              :*: 
+
+NP_014975.2      VARPAEWLRKPGWVKYVPGMAPVEVAYPDEELVVFDVETLY-----NVSDYPTLATALSS	190
+NP_418300.1      ILGPEEVVNKYG--------------VPPELI--IDFLALMGDSSDNIPGVPGVG-----	197
+                 :  * * :.* *               * * :  :*. :*      *: . * :.     
+
+NP_014975.2      TAWYLWCSPFICGGDDPAALIPLNTLNKEQVIIGHNVAYDRARVLEEYNFRDSKAFFLDT	250
+NP_418300.1      ---------------EKTAQALL------QGLGGLDTLYAEPEKIAGLSFRGAKTMAAKL	236
+                                : :*   *      * : * :. * . . :   .**.:*::  . 
+
+NP_014975.2      Q---SLHIASFGLCSRQRPMFMKNNKKKEAEVESE-------VHP-----EISIEDYDDP	295
+NP_418300.1      EQNKEVAYLSYQLATIKTDVELELT-CEQLEVQQPAAEELLGLFKKYEFKRWTADVEAGK	295
+                 :   .:   *: *.: :  : :: .  :: **:.        :.      . : :   . 
+
+NP_014975.2      WLNVSALNSLKDVAKFHCKIDLDKTDRDFFASTDKSTIIENFQKLVNYCATDVTATSQVF	355
+NP_418300.1      WLQAKGAKPAAKPQE----------------------------TSVADEAPEVTATVISY	327
+                 **:... :   .  :                            . *   * :****   :
+
+NP_014975.2      DEIF--------PVFLKKCPHPVSF-------------AGLKSLSKCILP---TKLNDWN	391
+NP_418300.1      DNYVTILDEETLKAWIAKLEKAPVFAFDTETDSLDNISANLVGLSFAIEPGVAAYIPVAH	387
+                 *: .         .:: *  :   *             *.* .** .* *   : :   :
+
+NP_014975.2      DYLNSSESLYQQSKVQIESKIV-------------------------------QIIKDIV	420
+NP_418300.1      DYLDAPDQISRERALELLKPLLEDEKALKVGQNLKYDRGILANYGIELRGIAFDTMLESY	447
+                 ***:: :.: ::  ::: . ::                               : : :  
+
+NP_014975.2      LLK----DKPDFYLKDPWLSQLDWTTKPLR-------------LTKKGVPAK----CQKL	459
+NP_418300.1      ILNSVAGRHDMDSLAERWLKHKTITFEEIAGKGKNQLTFNQIALEEAGRYAAEDADVTLQ	507
+                 :*:     :    * : **.:   * : :              * : *  *         
+
+NP_014975.2      PGFPEWYRQLFPSKDTVEPKITIKSRIIPILFKLSWENSPVIWSKESGWCFNVPHEQVET	519
+NP_418300.1      LHLKMWP-DLQKHKGPLNVFENIEMPLVPVLSRIERNGVKI--------DPKVLHNHSE-	557
+                   :  *  :*   *. ::   .*:  ::*:* ::. :.  :          :* *:: * 
+
+NP_014975.2      YKAKNYVLADSVSQEEEEIRTHNLGLQCTGVLFKVPHPNGPTFNCTNLLTKSYNHFFEKG	579
+NP_418300.1      ----------------------ELTLRLAELEKKAHEIAGEEFNLSSTKQL-QTILFEKQ	594
+                                       :* *: : :  *. .  *  ** :.      . :*** 
+
+NP_014975.2      VLKSESELAHQALQINSSGSYWM--SARERIQSQFVVPSCKFPNEFQSLSAKSSLNNEKT	637
+NP_418300.1      GIKPL--------KKTPGGAPSTSEEVLEELALDYPLPK--VILEYRGLA---KLKSTYT	641
+                  :*          : . .*:     .. *.:  :: :*.  .  *::.*:   .*:.  *
+
+NP_014975.2      NDLAIII-PKIVPMGTITRRAVE-NAWLTA------SNAKANRIGSELKTQVKAPPGYCF	689
+NP_418300.1      DKLPLMINPKTGRVHTSYHQAVTATGRLSSTDPNLQNIPVRNEEGRRIRQAFIAPEDYVI	701
+                 :.* ::* **   : *  ::**  .. *::      .    *. * .::  . ** .* :
+
+NP_014975.2      VGADVDSEELWIASLVGDSIFNVHGGTAIGWMCLEGTKNEGTDLHTKTA---------QI	740
+NP_418300.1      VSADYSQIELRIMAHLSRD---------KGL---LTAFAEGKDIHRATAAEVFGLPLETV	749
+                 *.** .. ** * : :. .          *      :  **.*:*  **          :
+
+NP_014975.2      LGCSRNEAKIFNYGRIYGAGAKFASQLLKRFNPSLTDEETKKIANKLYENTKGKTKRSKL	800
+NP_418300.1      TSEQRRSAKAINFGLIYGMSAFGLARQLN-----IPRKEAQKYMDLYFERYPGVLE----	800
+                  . .*..** :*:* *** .*   :: *:     :  :*::*  :  :*.  *  :    
+
+NP_014975.2      FKKFWYGGSESILFNKLESIAEQETPKTPVLGCGITYSLMKKN--LRANSFLPSRINWAI	858
+NP_418300.1      ----------YM--ERTRAQAKEQGYVETLDGRRLYLPDIKSSNGARRAAAERAAINAPM	848
+                            :  :: .: *:::     : *  :    :*..   *  :   : **  :
+
+NP_014975.2      QSSGVDYLHLLCCSMEYIIKKYNLEARLCISIHDEIRFLVSEKDKYRAAMALQISNIWTR	918
+NP_418300.1      QGTAADIIKRAMIAVDAWLQAEQPRVRMIMQVHDELVFEVHKDDVDAVA--KQ-------	899
+                 *.:..* ::    :::  ::  : ..*: :.:***: * * :.*   .*   *       
+
+NP_014975.2      AMFCQQMGINELPQNCAFFSQVDIDSVIRKEVNMDCITPSNKTAIPHGEALDINQLLDKS	978
+NP_418300.1      --------IHQLMENCTRLDVPL---LV---------------EVGSGENWDQAH-----	928
+                         *::* :**: :.      ::                :  **  *  :     
+
+NP_014975.2      NSKLGKPNLDIDSKVSQYAYNYREPVFEEYNKSYTPEFLKYFLAMQVQSDKRDVNRLEDE	1038
+NP_418300.1      ------------------------------------------------------------	928
+                                                                             
+
+NP_014975.2      YLRECTSKEYARDGNTAEYSLLDYIKDVEKGKRTKVRIMGSNFLDGTKNAKADQRIRLPV	1098
+NP_418300.1      ------------------------------------------------------------	928
+                                                                             
+
+NP_014975.2      NMPDYPTLHKIANDSAIPEKQLLENRRKKENRIDDENKKKLTRKKNTTPMERKYKRVYGG	1158
+NP_418300.1      ------------------------------------------------------------	928
+                                                                             
+
+NP_014975.2      RKAFEAFYECANKPLDYTLETEKQFFNIPIDGVIDDVLNDKSNYKKKPSQARTASSSPIR	1218
+NP_418300.1      ------------------------------------------------------------	928
+                                                                             
+
+NP_014975.2      KTAKAVHSKKLPARKSSTTNRNLVELERDITISREY	1254
+NP_418300.1      ------------------------------------	928
+                                                     

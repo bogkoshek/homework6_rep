@@ -1,0 +1,68 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00476.hmm
+# target sequence database:        protein_ecoli.faa
+# output directed to file:         ecoli_polA_hmmsearch.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       DNA_pol_A  [M=381]
+Accession:   PF00476.25
+Description: DNA polymerase family A
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+     4e-171  567.1   0.0   5.2e-171  566.7   0.0    1.1  1  NP_418300.1  DNA polymerase I [Escherichia coli str. K-12 sub
+
+
+Domain annotation for each sequence (and alignments):
+>> NP_418300.1  DNA polymerase I [Escherichia coli str. K-12 substr. MG1655]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  566.7   0.0  1.2e-174  5.2e-171       3     380 ..     551     925 ..     549     926 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 566.7 bits;  conditional E-value: 1.2e-174
+                  HHHHHHHHHHHHHHHHHHHHHHHSSCE-STTTCCCCHHHHTCCCCS.TSSBSTTS.BTTTHHHHHHHTS.T-HHHHHHHHHHHHHHHHHHTTTTGGGG CS
+    DNA_pol_A   3 aleelseeleeelkelekeiyelageefnlnSpkqLgevLfeklklpkkkktktg.ystdeevLeklaaeehpivkkileyrelaklkstyvdallkl 99 
+                   l++ seel+ +l+elek+++e+ageefnl+S+kqL+++Lfek ++++ kkt  g +st+eevLe+la  ++p++k ileyr laklksty+d+l+ +
+  NP_418300.1 551 VLHNHSEELTLRLAELEKKAHEIAGEEFNLSSTKQLQTILFEKQGIKPLKKTPGGaPSTSEEVLEELA-LDYPLPKVILEYRGLAKLKSTYTDKLPLM 647
+                  68999********************99*************************9999***********5.69*************************** PP
+
+                  CBTTTSEE--EEESSSSSSSS-EEESS-GGGS-TTSCCHHHHHHTBCGSTTCCEEEEEEETTHHHHHHHHHCT-HHHHHHHHTTH-HHHHHHHHHCTS CS
+    DNA_pol_A 100 inpktgrihtsfnqtvtaTGrlsssePNLqnipirteegreiRkafvaeeegvlllsaDYsqiELrilAhlsgdeeLieafkegeDiHtatAsevfgv 197
+                  inpktgr+hts++q+vtaTGrlss++PNLqnip+r+eegr+iR+af+a+e +++++saDYsqiELri+Ahls+d+ L++af+eg+DiH+atA+evfg+
+  NP_418300.1 648 INPKTGRVHTSYHQAVTATGRLSSTDPNLQNIPVRNEEGRRIRQAFIAPE-DYVIVSADYSQIELRIMAHLSRDKGLLTAFAEGKDIHRATAAEVFGL 744
+                  *************************************************9.799******************************************** PP
+
+                  -GGGHHHHHHHHHHHHHHHHHTT--HHHHHHHHTSSHHHHHHHHHHHHHHSHHHHHHHHHHHHHCCCESCCEETTCSEEEECTTT-CCHCCCHHHHHH CS
+    DNA_pol_A 198 pleevtkeqRrkaKavnFgiiYGisafgLaeqlgisrkeAkeliekYferypgvkeyleetveeakekgyvetllgRrrylpeinsknkalrsaaera 295
+                  ple+vt+eqRr+aKa+nFg+iYG+safgLa+ql+i+rkeA+++++ Yferypgv ey+e+t+++ake+gyvetl gRr ylp+i+s+n a+r+aaera
+  NP_418300.1 745 PLETVTSEQRRSAKAINFGLIYGMSAFGLARQLNIPRKEAQKYMDLYFERYPGVLEYMERTRAQAKEQGYVETLDGRRLYLPDIKSSNGARRAAAERA 842
+                  ************************************************************************************************** PP
+
+                  HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-SEEEEEEETTEEEEEEECCCHHHHHHHHHHHHHHHHHTTSSS--EEEEEEESSCT CS
+    DNA_pol_A 296 AiNapiQGsaADiiklamikvekalkeeklkarlllqvHDELvfevpeeeleevaelvkeemekeaavklkVplkvevkvGknwg 380
+                  AiNap+QG+aADiik+ami+v+++l++e+ ++r+++qvHDELvfev+++++++va+ +++ me+ ++  l+Vpl vev++G+nw+
+  NP_418300.1 843 AINAPMQGTAADIIKRAMIAVDAWLQAEQPRVRMIMQVHDELVFEVHKDDVDAVAKQIHQLMENCTR--LDVPLLVEVGSGENWD 925
+                  **************************************************************66666..***************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (381 nodes)
+Target sequences:                         4298  (1329980 residues searched)
+Passed MSV filter:                       122  (0.0283853); expected 86.0 (0.02)
+Passed bias filter:                       85  (0.0197766); expected 86.0 (0.02)
+Passed Vit filter:                         2  (0.000465333); expected 4.3 (0.001)
+Passed Fwd filter:                         1  (0.000232666); expected 0.0 (1e-05)
+Initial search space (Z):               4298  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.06u 0.02s 00:00:00.08 Elapsed: 00:00:00.05
+# Mc/sec: 10134.45
+//
+[ok]
